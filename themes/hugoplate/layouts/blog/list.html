@@ -1,0 +1,51 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      {{ $paginator := .Paginate .RegularPages }}
+      {{ $posts := $paginator.Pages }}
+      
+      <div class="row">
+         {{ with index $posts 0 }}
+           <!-- Featured post -->
+            <article class="mb-14 rounded-xl overflow-hidden bg-body dark:bg-darkmode-body shadow-sm col-12">
+              {{ $firstImg := "" }}
+              {{ $imgMatch := findRE "!\\[.*?\\]\\((/images/posts/[^)]+)\\)" .RawContent }}
+              {{ range $imgMatch }}{{ $firstImg = replaceRE "!\\[.*?\\]\\((/images/posts/[^)]+)\\)" "$1" . }}{{ end }}
+              {{ if $firstImg }}
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ $firstImg }}" alt="{{ .Title }}" class="w-full h-72 md:h-96 object-cover" loading="lazy">
+              </a>
+              {{ end }}
+              <div class="p-6 md:p-8">
+                <h2 class="text-h3 lg:text-h2 font-bold mb-3">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+                <p class="text-text dark:text-darkmode-text mb-6 leading-relaxed">{{ .Summary | plainify | truncate 200 }}</p>
+                <a class="btn btn-primary" href="{{ .RelPermalink }}">{{ T "read_more" | default "Read More" }}</a>
+              </div>
+            </article>
+          {{ end }}
+          
+          <!-- Other posts grid -->
+          {{ $rest := after 1 $posts }}
+          {{ if $rest }}
+            <div class="row">
+              {{ range $i, $p := $rest }}
+                {{ if eq (mod $i 3) 0 }}
+                  <div class="md:col-8 mb-8">
+                {{ else }}
+                  <div class="md:col-4 mb-8">
+                {{ end }}
+                  {{ partial "components/blog-card" $p }}
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+          
+          {{ partial "components/pagination.html" . }}
+      </div>
+    </div>
+  </section>
+{{ end }}

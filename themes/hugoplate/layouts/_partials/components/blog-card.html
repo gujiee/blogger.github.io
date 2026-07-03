@@ -1,0 +1,29 @@
+ {{/* Extract first image from post content */}}
+ {{ $firstImg := "" }}
+ {{ $imgMatch := findRE "!\\[.*?\\]\\((/images/posts/[^)]+)\\)" .RawContent }}
+ {{ range $imgMatch }}
+   {{ $firstImg = replaceRE "!\\[.*?\\]\\((/images/posts/[^)]+)\\)" "$1" . }}
+ {{ end }}
+ 
+ <div class="bg-body dark:bg-darkmode-body rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+   {{ if $firstImg }}
+     <a href="{{ .RelPermalink }}" class="block overflow-hidden">
+       <img src="{{ $firstImg }}" alt="{{ .Title }}" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" loading="lazy">
+     </a>
+   {{ end }}
+   <div class="p-5 flex flex-col flex-1">
+     <div class="mb-2 text-sm text-text-light dark:text-darkmode-text-light">
+       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+     </div>
+     <h4 class="mb-3 text-lg font-semibold leading-snug">
+       <a href="{{ .RelPermalink }}" class="hover:text-primary transition-colors">
+         {{ .Title }}
+       </a>
+     </h4>
+     <p class="text-sm text-text dark:text-darkmode-text leading-relaxed mb-4 flex-1">{{ .Summary | plainify | truncate 100 }}</p>
+     <a class="text-primary font-medium text-sm hover:underline mt-auto inline-flex items-center gap-1" href="{{ .RelPermalink }}">
+       {{ T "read_more" | default "Read More" }}
+       <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+     </a>
+   </div>
+ </div>

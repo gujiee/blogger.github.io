@@ -1,0 +1,28 @@
+{
+  "main": [
+ {
+   "name": "facebook",
+   "icon": "fab fa-facebook",
+   "link": "https://www.facebook.com/",
+   "color": "#1877F2"
+ },
+ {
+   "name": "twitter",
+   "icon": "fab fa-twitter",
+   "link": "https://twitter.com/",
+   "color": "#1DA1F2"
+ },
+ {
+   "name": "github",
+   "icon": "fab fa-github",
+   "link": "https://www.github.com/",
+   "color": "#24292F"
+ },
+ {
+   "name": "linkedin",
+   "icon": "fab fa-linkedin",
+   "link": "https://www.linkedin.com/",
+   "color": "#0077B5"
+ }
+  ]
+}

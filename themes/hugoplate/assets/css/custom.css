@@ -1,5 +1,6 @@
-/* Add your own custom styles here */
-/* Button overrides: transparent background, orange text */
+/* DO NOT WRITE ANY STYLE IN THIS FILE */
+/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
+/* ====== BUTTON OVERRIDES: transparent bg, orange text ====== */
 .btn-primary {
   background-color: transparent;
   color: #ea580c;
@@ -12,7 +13,6 @@
   border-color: #ea580c;
 }
 
-/* Dark mode */
 .dark .btn-primary {
   color: #fb923c;
   border-color: #fb923c;
