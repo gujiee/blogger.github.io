@@ -61,7 +61,7 @@ jobs:
         run: pnpm install
 
       - name: Build site
-        run: pnpm build
+        run: node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic --baseURL "${{ steps.pages.outputs.base_url }}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
