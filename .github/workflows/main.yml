@@ -47,6 +47,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Setup pnpm
+        run: npm install -g pnpm
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
