@@ -52,4 +52,4 @@ type: "post"
 
 大火山的下面有一个温泉，是真正的温泉，绝对不是锅炉烧开的井水。原先，温泉里只有一个露天的大池和若干单个的小浴室，现在则成了一个温泉公园。有湖泊，有游乐园，还有各种各样美丽的热带花朵，有一种花，仿佛倒放的小喇叭，有20-30厘米长，浅粉色，总让我感觉像潘多拉星球的生物。露天的大池中有很多当地人，男子可以穿泳裤，光上身，女子是不可以的，只能披上伊斯兰的长袍。单个浴室很小，就是一个石头砌出的水池，一个桌子放些衣服，背包。温泉的水是无穷无尽的，躺在石头的池中，听着流水流进流出，感觉温暖的泉水浸泡全身，什么也不想，什么也不做，就这样直到你觉得每个毛孔都完完全全的打开了，感觉的皮肤在温泉的滋润下，有涂了油一样的感觉，感觉到身体放松的像一只洗完的泡在水里的袜子。真是太舒服了。
 
-![TangkubanParah](https://gujiee.github.io/blogger.github.io/images/posts/TangkubanParah-1.jpg)
+![TangkubanParah](https://raw.githubusercontent.com/gujiee/blogger.github.io/main/static/images/posts/TangkubanParah-1.jpg)
