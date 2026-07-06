@@ -27,4 +27,4 @@ type: "post"
 黄杰和郭晚晴相互看了一眼，眼神中都充满了困惑和一丝后怕。他们在笔录的末尾，地签下了自己的名字。
 
 
-![The Quiet Void （ a fictional story）C11](/images/posts/The Quiet Void （ a fictio-1.jpg)
+![The Quiet Void （ a fictional story）C11](https://raw.githubusercontent.com/gujiee/blogger.github.io/main/static/images/posts/The Quiet Void （ a fictio-1.jpg)

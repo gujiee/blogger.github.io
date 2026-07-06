@@ -78,4 +78,4 @@ type: "post"
 年轻人说：“好的，李老师，谢谢你，我们就谈到这里，你看下我记下的内容，是不是和你说的一致，如果没有问题，你就在下面空白处签个名字。”
 接着看到女人，拿过两张白字，认真的看着，接下来，管对面的年轻人要了一支笔，签了字。离开了。
 
-![The Quiet Void （ a fictional story）C08](/images/posts/The Quiet Void （ a fictio-1.jpg)
+![The Quiet Void （ a fictional story）C08](https://raw.githubusercontent.com/gujiee/blogger.github.io/main/static/images/posts/The Quiet Void （ a fictio-1.jpg)

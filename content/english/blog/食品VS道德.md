@@ -18,4 +18,4 @@ type: "post"
 3.       中国发到美国的食品，视乎也没有听说出现过什么问题。
 如果按照概率计算的话，我不禁要感叹有着五千年历史的中国人民实在是太倒霉了，如果按照道德来解释问题的话，我不禁质疑道德难道也有内外分别。
 
-![食品VS道德](/images/posts/食品VS道德-1.jpg)
+![食品VS道德](https://raw.githubusercontent.com/gujiee/blogger.github.io/main/static/images/posts/食品VS道德-1.jpg)

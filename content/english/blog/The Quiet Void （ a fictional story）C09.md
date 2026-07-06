@@ -12,4 +12,4 @@ type: "post"
 最后男人也在递过来的纸上，签了字，顺手把笔放到自己的上衣口袋里，直到年轻人提醒他，他才尴尬的掏出笔，从新放到桌子上，讪讪的笑着，走了。
 
 
-![The Quiet Void （ a fictional story）C09](/images/posts/The Quiet Void （ a fictio-1.jpg)
+![The Quiet Void （ a fictional story）C09](https://raw.githubusercontent.com/gujiee/blogger.github.io/main/static/images/posts/The Quiet Void （ a fictio-1.jpg)
