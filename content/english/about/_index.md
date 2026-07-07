@@ -2,7 +2,7 @@
 title: "关于我"
 meta_title: "About"
 description: "一个用中文写作的诗人、手艺人、旅行者、丈夫、父亲和儿子"
-image: "/images/og-image.png"
+image: "/images/about-hero.jpg"
 layout: "about"
 draft: false
 ---
