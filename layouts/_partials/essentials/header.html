@@ -33,7 +33,7 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
-        {{ $menuURL := .URL | absLangURL }}
+        {{ $menuURL := .URL | strings.TrimPrefix "/" | relLangURL }}
         {{ $pageURL:= $currentPage.Permalink | absLangURL }}
         {{ $active := eq $menuURL $pageURL }}
         {{ if .HasChildren }}
@@ -45,7 +45,7 @@
             <label
               for="submenu-{{ .Name | urlize }}"
               class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
+                {{ $childURL := .URL | strings.TrimPrefix "/" | relLangURL }}
                 {{ $active := eq $childURL $pageURL }}
                 {{ if $active }}active{{ end }}
               {{ end }} inline-flex items-center">
@@ -58,7 +58,7 @@
             <ul
               class="nav-dropdown-list hidden peer-checked:block peer-checked:visible peer-checked:opacity-100 lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
               {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
+                {{ $childURL := .URL | strings.TrimPrefix "/" | relLangURL }}
                 {{ $active := eq $childURL $pageURL }}
                 <li class="nav-dropdown-item">
                   <a
@@ -74,7 +74,7 @@
                       {{- end }}
                       {{- .URL -}}
                     {{- else -}}
-                      {{- .URL | absLangURL -}}
+                      {{- .URL | strings.TrimPrefix "/" | relLangURL -}}
                     {{- end -}}">
                     {{ .Name }}
                   </a>
@@ -94,7 +94,7 @@
                   {{- site.Home.RelPermalink -}}
                 {{- end }}{{- .URL -}}
               {{- else -}}
-                {{- .URL | absLangURL -}}
+                {{- .URL | strings.TrimPrefix "/" | relLangURL -}}
               {{- end -}}"
               >{{ .Name }}</a
             >
@@ -105,7 +105,7 @@
         <li class="mt-4 inline-block lg:hidden">
           <a
             class="btn btn-outline-primary btn-sm"
-            href="{{ site.Params.navigation_button.link | absLangURL }}"
+            href="{{ site.Params.navigation_button.link | strings.TrimPrefix "/" | relLangURL }}"
             {{ if (hasPrefix site.Params.navigation_button.link `http`) }}
               target="_blank" rel="noopener"
             {{ end }}>
@@ -139,7 +139,7 @@
       <!-- navigation btn -->
       {{ if site.Params.navigation_button.enable }}
         <a
-          href="{{ site.Params.navigation_button.link | absLangURL }}"
+          href="{{ site.Params.navigation_button.link | strings.TrimPrefix "/" | relLangURL }}"
           class="btn btn-outline-primary btn-sm hidden lg:inline-block"
           {{ if (hasPrefix site.Params.navigation_button.link `http`) }}target="_blank" rel="noopener"{{ end }}>
           {{ site.Params.navigation_button.label }}
@@ -148,4 +148,5 @@
     </div>
   </nav>
 </header>
+
 

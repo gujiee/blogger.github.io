@@ -23,7 +23,7 @@
                     {{ site.Home.RelPermalink }}
                   {{ end }}{{ .URL }}
                 {{ else }}
-                  {{ .URL | absLangURL }}
+                  {{ .URL | strings.TrimPrefix "/" | relLangURL }}
                 {{ end }}"
                 >{{ .Name }}</a
               >
@@ -58,4 +58,5 @@
     </div>
   </div>
 </footer>
+
 
