@@ -34,7 +34,7 @@
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
         {{ $menuURL := .URL | absLangURL }}
-        {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+        {{ $pageURL:= $currentPage.RelPermalink }}
         {{ $active := eq $menuURL $pageURL }}
         {{ if .HasChildren }}
           <li class="nav-item nav-dropdown group relative">
@@ -74,7 +74,7 @@
                       {{- end }}
                       {{- .URL -}}
                     {{- else -}}
-                      {{- .URL | relLangURL -}}
+                      {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end -}}
                     {{- end -}}">
                     {{ .Name }}
                   </a>
@@ -94,7 +94,7 @@
                   {{- site.Home.RelPermalink -}}
                 {{- end }}{{- .URL -}}
               {{- else -}}
-                {{- .URL | relLangURL -}}
+                {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end -}}
               {{- end -}}"
               >{{ .Name }}</a
             >
@@ -148,3 +148,5 @@
     </div>
   </nav>
 </header>
+
+
