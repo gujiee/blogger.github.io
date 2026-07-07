@@ -11,7 +11,7 @@
               <h2 class="mb-2">{{ .Title | markdownify }}</h2>
               <p class="mb-6">{{ .Params.description | markdownify }}</p>
               {{ with .Params.button }}{{ if .enable }}
-                <a class="btn btn-primary" href="{{ .link | strings.TrimPrefix "/" | relURL }}">{{ .label }}</a>
+                <a class="btn btn-primary" href="{{ .link | strings.TrimPrefix "/" | relLangURL }}">{{ .label }}</a>
               {{ end }}{{ end }}
             </div>
           </div>

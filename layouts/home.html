@@ -7,7 +7,7 @@
             <h1 class="mb-4 text-h3 lg:text-h1">{{ .title | markdownify }}</h1>
             <p class="mb-8">{{ .content | markdownify }}</p>
             {{ with .button }}{{ if .enable }}
-              <a class="btn btn-primary" href="{{ .link | strings.TrimPrefix "/" | relURL }}"{{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}>{{ .label }}</a>
+              <a class="btn btn-primary" href="{{ .link | strings.TrimPrefix "/" | relLangURL }}"{{ if strings.HasPrefix .link `http` }} target="_blank" rel="noopener"{{ end }}>{{ .label }}</a>
             {{ end }}{{ end }}
           </div>
           <div class="col-12">
@@ -31,7 +31,7 @@
               <li class="relative mb-4 pl-6"><i class="fa fa-check absolute left-0 top-1.5"></i>{{ . | markdownify }}</li>
             {{ end }}</ul>
             {{ with .button }}{{ if .enable }}
-              <a class="btn btn-primary mt-6" href="{{ .link | strings.TrimPrefix "/" | relURL }}">{{ .label }}<i class="fa fa-arrow-right pl-2"></i></a>
+              <a class="btn btn-primary mt-6" href="{{ .link | strings.TrimPrefix "/" | relLangURL }}">{{ .label }}<i class="fa fa-arrow-right pl-2"></i></a>
             {{ end }}{{ end }}
           </div>
         </div>
