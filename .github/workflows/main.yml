@@ -63,6 +63,11 @@ jobs:
       - name: Build site
         run: node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic --baseURL "${{ steps.pages.outputs.base_url }}"
 
+      - name: Fix multilingual URLs in generated HTML
+        run: |
+          echo "Fixing broken relLangURL URLs..."
+          find public -name "*.html" -type f -exec sed -i 's|/en/blogger\.github\.io/|/blogger.github.io/en/|g' {} +
+          echo "URL fix complete"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
@@ -79,3 +84,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.5
+
