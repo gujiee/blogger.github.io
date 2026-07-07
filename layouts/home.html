@@ -54,7 +54,7 @@
                   <blockquote class="mt-8">{{ .content | markdownify }}</blockquote>
                   <div class="mt-11 flex items-center">
                     <div class="text-text-dark dark:text-white">{{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}</div>
-                    <div class="ml-4"><h3 class="h5 font-primary font-semibold">{{ .name }}</h3><p class="text-text-dark dark:text-white">{{ .designation | markdownify }}</p></div>
+ <div class="ml-4"><h3 class="h5 font-primary font-semibold">{{ .name }}</h3><p class="text-text-dark dark:text-white">{{ .designation | markdownify }}</p>{{ if .date }}<p class="text-text-light dark:text-darkmode-text-light text-xs mt-1">{{ .date }}</p>{{ end }}</div>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,24 @@
+[0] ✅ Theme CSS generated successfully at: D:\Website\blog001\themes\hugoplate\assets\css\generated-theme.css
+[0] 👁️  Watching for changes to: D:\Website\blog001\data\theme.json
+[1] Watching for changes in D:/Website/blog001/assets/{css,images}, D:/Website/blog001/content/english/{about,authors,blog,contact,pages,...}, D:/Website/blog001/data, D:/Website/blog001/i18n, D:/Website/blog001/package.json, D:/Website/blog001/static/{.well-known,images}, D:/Website/blog001/themes/hugoplate/assets/{css,js,plugins}, D:/Website/blog001/themes/hugoplate/layouts/{_partials,authors,blog}
+[1] Watching for config changes in D:\Website\blog001\hugo.toml, D:\Website\blog001\config\_default, D:\Website\blog001\config\development, D:\Website\blog001\go.mod
+[1] Start building sites ... 
+[1] hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended windows/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+[1] 
+[1] 
+[1]                   │ EN  
+[1] ──────────────────┼─────
+[1]  Pages            │ 312 
+[1]  Paginator pages  │   8 
+[1]  Non-page files   │   0 
+[1]  Static files     │  23 
+[1]  Processed images │  12 
+[1]  Aliases          │   1 
+[1]  Cleaned          │   0 
+[1] 
+[1] Built in 1476 ms
+[1] Environment: "development"
+[1] Serving pages from disk
+[1] Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+[1] Web Server is available at //localhost:1313/ (bind address 127.0.0.1) 
+[1] Press Ctrl+C to stop

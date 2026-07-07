@@ -143,9 +143,7 @@
       "grow",
       "h-3",
       "h-4",
-      "h-48",
       "h-6",
-      "h-72",
       "h-full",
       "h2",
       "h3",
@@ -154,7 +152,6 @@
       "hidden",
       "highlight",
       "hover:bg-light",
-      "hover:scale-105",
       "hover:shadow-md",
       "hover:text-primary",
       "hover:underline",
@@ -221,7 +218,6 @@
       "md:col-7",
       "md:col-8",
       "md:col-9",
-      "md:h-96",
       "md:mb-0",
       "md:order-1",
       "md:order-2",
@@ -233,6 +229,7 @@
       "ml-auto",
       "mr-1",
       "mr-5",
+      "mt-1",
       "mt-10",
       "mt-11",
       "mt-4",
@@ -254,7 +251,6 @@
       "notice",
       "notice-body",
       "notice-head",
-      "object-cover",
       "opacity-0",
       "opacity-100",
       "order-0",
@@ -340,6 +336,7 @@
       "text-text-light",
       "text-white",
       "text-xl",
+      "text-xs",
       "theme-switcher",
       "tip",
       "to-light",
@@ -348,7 +345,6 @@
       "top-1/2",
       "transition-colors",
       "transition-shadow",
-      "transition-transform",
       "w-3",
       "w-4",
       "w-full",
@@ -403,8 +399,7 @@
       "theme-switcher",
       "unordered-list",
       "we-know-youre-dealing-in-stolen-ore",
-      "youtube-video",
-      "跨越大洋的书写者"
+      "youtube-video"
     ]
   }
 }

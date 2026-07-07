@@ -1,0 +1,927 @@
+Watching for changes in D:/Website/blog001/assets/{css,images}, D:/Website/blog001/content/english/{about,authors,blog,contact,pages,...}, D:/Website/blog001/data, D:/Website/blog001/i18n, D:/Website/blog001/package.json, D:/Website/blog001/static/{.well-known,images}, D:/Website/blog001/themes/hugoplate/assets/{css,js,plugins}, D:/Website/blog001/themes/hugoplate/layouts/{_partials,authors,blog}
+Watching for config changes in D:\Website\blog001\hugo.toml, D:\Website\blog001\config\_default, D:\Website\blog001\config\development, D:\Website\blog001\go.mod
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended windows/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │ 312 
+ Paginator pages  │   8 
+ Non-page files   │   0 
+ Static files     │  23 
+ Processed images │  12 
+ Aliases          │   1 
+ Cleaned          │   0 
+
+Built in 1498 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+adding created directory to watchlist D:\Website\blog001\static\images\posts
+
+Change of Static files detected, rebuilding site (#1).
+2026-07-02 14:55:17.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#2).
+2026-07-02 14:56:00.880 +1200
+Syncing \images\posts\新加坡-1.jpg to \
+
+Change detected, rebuilding site (#3).
+2026-07-02 14:56:00.882 +1200
+Source changed /blog/新加坡.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 186 ms
+
+Change of Static files detected, rebuilding site (#4).
+2026-07-02 14:58:01.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\初春的小花-1.png to \
+
+Change detected, rebuilding site (#5).
+2026-07-02 14:58:01.394 +1200
+Source changed /blog/初春的小花.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 242 ms
+
+Change of Static files detected, rebuilding site (#6).
+2026-07-02 14:58:01.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#7).
+2026-07-02 14:58:29.380 +1200
+Syncing \images\posts\老裴和他的女人们-1.png to \
+
+Change detected, rebuilding site (#8).
+2026-07-02 14:58:29.381 +1200
+Source changed /blog/老裴和他的女人们.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 188 ms
+
+Change of Static files detected, rebuilding site (#9).
+2026-07-02 14:58:47.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\客户-1.png to \
+
+Change detected, rebuilding site (#10).
+2026-07-02 14:58:47.399 +1200
+Source changed /blog/客户.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 312 ms
+
+Change of Static files detected, rebuilding site (#11).
+2026-07-02 14:58:47.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#12).
+2026-07-02 14:59:00.880 +1200
+Syncing \images\posts\送别-1.png to \
+
+Change detected, rebuilding site (#13).
+2026-07-02 14:59:00.881 +1200
+Source changed /blog/送别.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 231 ms
+
+Change of Static files detected, rebuilding site (#14).
+2026-07-02 14:59:17.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\布朗湾的星期天下午-1.jpg to \
+
+Change detected, rebuilding site (#15).
+2026-07-02 14:59:17.398 +1200
+Source changed /blog/布朗湾的星期天下午.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 327 ms
+
+Change of Static files detected, rebuilding site (#16).
+2026-07-02 14:59:17.879 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#17).
+2026-07-02 14:59:33.380 +1200
+Syncing \images\posts\加油站-1.jpg to \
+
+Change of Static files detected, rebuilding site (#18).
+2026-07-02 14:59:35.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\加油站-2.jpg to \
+
+Change of Static files detected, rebuilding site (#19).
+2026-07-02 14:59:35.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#20).
+2026-07-02 14:59:36.880 +1200
+Syncing \images\posts\加油站-3.jpg to \
+
+Change detected, rebuilding site (#21).
+2026-07-02 14:59:36.882 +1200
+Source changed /blog/加油站.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 219 ms
+
+Change of Static files detected, rebuilding site (#22).
+2026-07-02 14:59:52.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\2026年大年初一-1.jpg to \
+
+Change detected, rebuilding site (#23).
+2026-07-02 14:59:52.414 +1200
+Source changed /blog/2026年大年初一.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 297 ms
+
+Change of Static files detected, rebuilding site (#24).
+2026-07-02 14:59:52.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#25).
+2026-07-02 15:00:06.880 +1200
+Syncing \images\posts\阿托活佛-1.png to \
+
+Change detected, rebuilding site (#26).
+2026-07-02 15:00:06.881 +1200
+Source changed /blog/阿托活佛.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 226 ms
+
+Change of Static files detected, rebuilding site (#27).
+2026-07-02 15:00:22.380 +1200
+Syncing \images to \
+Syncing \images\posts to \
+
+Change detected, rebuilding site (#28).
+2026-07-02 15:00:48.880 +1200
+Source changed /blog/新加坡.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 228 ms
+
+Change of Static files detected, rebuilding site (#29).
+2026-07-02 15:00:50.880 +1200
+Syncing \images\posts\树-1.png to \
+
+Change detected, rebuilding site (#30).
+2026-07-02 15:00:50.886 +1200
+Source changed /blog/树.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 226 ms
+
+Change detected, rebuilding site (#31).
+2026-07-02 15:00:51.880 +1200
+Source changed /blog/初春的小花.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 228 ms
+
+Change detected, rebuilding site (#32).
+2026-07-02 15:00:52.880 +1200
+Source changed /blog/老裴和他的女人们.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 232 ms
+
+Change detected, rebuilding site (#33).
+2026-07-02 15:00:53.880 +1200
+Source changed /blog/客户.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 228 ms
+
+Change detected, rebuilding site (#34).
+2026-07-02 15:00:54.880 +1200
+Source changed /blog/送别.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 221 ms
+
+Change detected, rebuilding site (#35).
+2026-07-02 15:00:55.380 +1200
+Source changed /blog/布朗湾的星期天下午.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 227 ms
+
+Change detected, rebuilding site (#36).
+2026-07-02 15:00:59.380 +1200
+Source changed /blog/加油站.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 235 ms
+
+Change detected, rebuilding site (#37).
+2026-07-02 15:01:00.380 +1200
+Source changed /blog/2026年大年初一.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 235 ms
+
+Change detected, rebuilding site (#38).
+2026-07-02 15:01:01.380 +1200
+Source changed /blog/阿托活佛.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 221 ms
+
+Change of Static files detected, rebuilding site (#39).
+2026-07-02 15:01:02.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\精致的玩物-1.jpg to \
+
+Change detected, rebuilding site (#40).
+2026-07-02 15:01:02.426 +1200
+Source changed /blog/精致的玩物.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 306 ms
+
+Change of Static files detected, rebuilding site (#41).
+2026-07-02 15:01:02.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#42).
+2026-07-02 15:01:03.380 +1200
+Syncing \images\posts\写给18岁女儿的信-1.jpg to \
+
+Change detected, rebuilding site (#43).
+2026-07-02 15:01:03.386 +1200
+Source changed /blog/写给18岁女儿的信.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 244 ms
+
+Change of Static files detected, rebuilding site (#44).
+2026-07-02 15:01:04.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\毕业-1.jpg to \
+
+Change detected, rebuilding site (#45).
+2026-07-02 15:01:04.927 +1200
+Source changed /blog/毕业.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 331 ms
+
+Change of Static files detected, rebuilding site (#46).
+2026-07-02 15:01:05.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#47).
+2026-07-02 15:01:13.881 +1200
+Syncing \images\posts\黑井-1.jpg to \
+
+Change detected, rebuilding site (#48).
+2026-07-02 15:01:13.886 +1200
+Source changed /blog/黑井.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 333 ms
+
+Change of Static files detected, rebuilding site (#49).
+2026-07-02 15:01:16.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\住客-1.jpg to \
+
+Change detected, rebuilding site (#50).
+2026-07-02 15:01:16.938 +1200
+Source changed /blog/住客.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 363 ms
+
+Change of Static files detected, rebuilding site (#51).
+2026-07-02 15:01:17.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#52).
+2026-07-02 15:01:18.880 +1200
+Syncing \images\posts\读德富芦花的我家的财富-1.jpg to \
+
+Change detected, rebuilding site (#53).
+2026-07-02 15:01:18.887 +1200
+Source changed /blog/读德富芦花的我家的财富.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 324 ms
+
+Change of Static files detected, rebuilding site (#54).
+2026-07-02 15:01:20.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\奥克兰的清晨-1.jpg to \
+
+Change detected, rebuilding site (#55).
+2026-07-02 15:01:20.446 +1200
+Source changed /blog/奥克兰的清晨.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 347 ms
+
+Change of Static files detected, rebuilding site (#56).
+2026-07-02 15:01:20.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#57).
+2026-07-02 15:01:21.380 +1200
+Syncing \images\posts\14-1.jpg to \
+
+Change detected, rebuilding site (#58).
+2026-07-02 15:01:21.386 +1200
+Source changed /blog/14.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 338 ms
+
+Change of Static files detected, rebuilding site (#59).
+2026-07-02 15:01:22.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\那座城-1.jpg to \
+
+Change detected, rebuilding site (#60).
+2026-07-02 15:01:22.978 +1200
+Source changed /blog/那座城.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 320 ms
+
+Change of Static files detected, rebuilding site (#61).
+2026-07-02 15:01:23.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#62).
+2026-07-02 15:01:24.880 +1200
+Syncing \images\posts\The Quiet Void （ a fictio-1.jpg to \
+
+Change detected, rebuilding site (#63).
+2026-07-02 15:01:24.882 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c11.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 146 ms
+
+Change detected, rebuilding site (#64).
+2026-07-02 15:01:25.380 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c09.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 225 ms
+
+Change of Static files detected, rebuilding site (#65).
+2026-07-02 15:01:26.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\瓦努阿图的生活-1.jpg to \
+
+Change detected, rebuilding site (#66).
+2026-07-02 15:01:26.950 +1200
+Source changed /blog/瓦努阿图的生活.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 291 ms
+
+Change of Static files detected, rebuilding site (#67).
+2026-07-02 15:01:27.380 +1200
+Syncing \images\posts to \
+
+Change detected, rebuilding site (#68).
+2026-07-02 15:01:27.460 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c08.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 290 ms
+
+Change of Static files detected, rebuilding site (#69).
+2026-07-02 15:01:28.380 +1200
+Syncing \images\posts\The Quiet Void （ a fictio-1.png to \
+
+Change detected, rebuilding site (#70).
+2026-07-02 15:01:28.384 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c07.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 257 ms
+
+Change detected, rebuilding site (#71).
+2026-07-02 15:01:29.380 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c06.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 261 ms
+
+Change detected, rebuilding site (#72).
+2026-07-02 15:01:30.380 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c05.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 245 ms
+
+Change detected, rebuilding site (#73).
+2026-07-02 15:01:31.380 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c04.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 257 ms
+
+Change detected, rebuilding site (#74).
+2026-07-02 15:01:32.380 +1200
+Source changed /blog/the-quiet-void-（-a-fictional-story）c02.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 282 ms
+
+Change of Static files detected, rebuilding site (#75).
+2026-07-02 15:01:32.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\再见，北京-1.webp to \
+
+Change detected, rebuilding site (#76).
+2026-07-02 15:01:32.955 +1200
+Source changed /blog/再见，北京.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 261 ms
+
+Change of Static files detected, rebuilding site (#77).
+2026-07-02 15:01:33.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#78).
+2026-07-02 15:01:34.880 +1200
+Syncing \images\posts\日子-1.jpg to \
+
+Change of Static files detected, rebuilding site (#79).
+2026-07-02 15:01:35.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\日子-2.jpg to \
+
+Change of Static files detected, rebuilding site (#80).
+2026-07-02 15:01:36.381 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#81).
+2026-07-02 15:01:37.380 +1200
+Syncing \images\posts\日子-3.jpg to \
+
+Change detected, rebuilding site (#82).
+2026-07-02 15:01:37.383 +1200
+Source changed /blog/35-日子.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 263 ms
+
+Change of Static files detected, rebuilding site (#83).
+2026-07-02 15:01:38.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\回诗-1.jpg to \
+
+Change of Static files detected, rebuilding site (#84).
+2026-07-02 15:01:39.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\回诗-2.jpg to \
+
+Change detected, rebuilding site (#85).
+2026-07-02 15:01:39.468 +1200
+Source changed /blog/回诗.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 291 ms
+
+Change of Static files detected, rebuilding site (#86).
+2026-07-02 15:01:39.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#87).
+2026-07-02 15:01:40.380 +1200
+Syncing \images\posts\一条会思考的鱼-1.jpg to \
+Syncing \images\posts to \
+
+Change detected, rebuilding site (#88).
+2026-07-02 15:01:40.463 +1200
+Source changed /blog/一条会思考的鱼.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 301 ms
+
+Change of Static files detected, rebuilding site (#89).
+2026-07-02 15:01:41.881 +1200
+Syncing \images\posts\星空遐想-1.jpg to \
+
+Change detected, rebuilding site (#90).
+2026-07-02 15:01:41.883 +1200
+Source changed /blog/星空遐想.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 269 ms
+
+Change of Static files detected, rebuilding site (#91).
+2026-07-02 15:01:42.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\我看北京之堵-1.jpg to \
+
+Change detected, rebuilding site (#92).
+2026-07-02 15:01:42.971 +1200
+Source changed /blog/我看北京之堵.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 271 ms
+
+Change of Static files detected, rebuilding site (#93).
+2026-07-02 15:01:43.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#94).
+2026-07-02 15:01:44.881 +1200
+Syncing \images\posts\回家的路-1.jpg to \
+
+Change detected, rebuilding site (#95).
+2026-07-02 15:01:44.886 +1200
+Source changed /blog/45-回家的路.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 277 ms
+
+Change of Static files detected, rebuilding site (#96).
+2026-07-02 15:01:46.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\食品VS道德-1.jpg to \
+
+Change detected, rebuilding site (#97).
+2026-07-02 15:01:46.984 +1200
+Source changed /blog/食品vs道德.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 436 ms
+
+Change of Static files detected, rebuilding site (#98).
+2026-07-02 15:01:47.422 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#99).
+2026-07-02 15:01:48.381 +1200
+Syncing \images\posts\卡莎布兰卡-1.jpg to \
+
+Change detected, rebuilding site (#100).
+2026-07-02 15:01:48.385 +1200
+Source changed /blog/47-卡莎布兰卡.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 243 ms
+
+Change of Static files detected, rebuilding site (#101).
+2026-07-02 15:01:49.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\韩美林艺术馆-1.jpg to \
+
+Change detected, rebuilding site (#102).
+2026-07-02 15:01:49.480 +1200
+Source changed /blog/韩美林艺术馆.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 290 ms
+
+Change of Static files detected, rebuilding site (#103).
+2026-07-02 15:01:49.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#104).
+2026-07-02 15:01:50.880 +1200
+Syncing \images\posts\扬州和吐鲁番-1.jpg to \
+
+Change of Static files detected, rebuilding site (#105).
+2026-07-02 15:01:51.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\扬州和吐鲁番-2.jpg to \
+
+Change of Static files detected, rebuilding site (#106).
+2026-07-02 15:01:52.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#107).
+2026-07-02 15:01:53.380 +1200
+Syncing \images\posts\扬州和吐鲁番-3.jpg to \
+
+Change detected, rebuilding site (#108).
+2026-07-02 15:01:53.381 +1200
+Source changed /blog/扬州和吐鲁番.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 234 ms
+
+Change of Static files detected, rebuilding site (#109).
+2026-07-02 15:01:53.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\房市，股市-1.jpg to \
+
+Change detected, rebuilding site (#110).
+2026-07-02 15:01:53.978 +1200
+Source changed /blog/房市，股市.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 136 ms
+
+Change of Static files detected, rebuilding site (#111).
+2026-07-02 15:01:54.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#112).
+2026-07-02 15:01:54.881 +1200
+Syncing \images\posts\捡石头-1.jpg to \
+
+Change detected, rebuilding site (#113).
+2026-07-02 15:01:54.885 +1200
+Source changed /blog/捡石头.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 255 ms
+
+Change of Static files detected, rebuilding site (#114).
+2026-07-02 15:01:55.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\思想家-1.jpg to \
+
+Change detected, rebuilding site (#115).
+2026-07-02 15:01:55.983 +1200
+Source changed /blog/57-思想家.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 306 ms
+
+Change of Static files detected, rebuilding site (#116).
+2026-07-02 15:01:56.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\米兰-1.jpg to \
+
+Change detected, rebuilding site (#117).
+2026-07-02 15:01:56.484 +1200
+Source changed /blog/米兰.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 324 ms
+
+Change of Static files detected, rebuilding site (#118).
+2026-07-02 15:01:56.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#119).
+2026-07-02 15:01:57.381 +1200
+Syncing \images\posts\盛宴-1.jpg to \
+Syncing \images\posts to \
+
+Change detected, rebuilding site (#120).
+2026-07-02 15:01:57.496 +1200
+Source changed /blog/盛宴.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 278 ms
+
+Change of Static files detected, rebuilding site (#121).
+2026-07-02 15:01:57.880 +1200
+Syncing \images\posts\生活的交换-1.jpg to \
+
+Change detected, rebuilding site (#122).
+2026-07-02 15:01:57.882 +1200
+Source changed /blog/生活的交换.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 267 ms
+
+Change of Static files detected, rebuilding site (#123).
+2026-07-02 15:01:58.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\北京-1.jpg to \
+
+Change of Static files detected, rebuilding site (#124).
+2026-07-02 15:01:58.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\北京-2.jpg to \
+
+Change of Static files detected, rebuilding site (#125).
+2026-07-02 15:01:59.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#126).
+2026-07-02 15:01:59.881 +1200
+Syncing \images\posts\北京-3.jpg to \
+
+Change of Static files detected, rebuilding site (#127).
+2026-07-02 15:02:00.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\北京-4.jpg to \
+
+Change of Static files detected, rebuilding site (#128).
+2026-07-02 15:02:00.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\北京-5.jpg to \
+
+Change detected, rebuilding site (#129).
+2026-07-02 15:02:00.974 +1200
+Source changed /blog/北京.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 282 ms
+
+Change of Static files detected, rebuilding site (#130).
+2026-07-02 15:02:01.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#131).
+2026-07-02 15:02:02.380 +1200
+Syncing \images\posts\青云谱-1.gif to \
+
+Change of Static files detected, rebuilding site (#132).
+2026-07-02 15:02:03.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\青云谱-2.jpg to \
+
+Change detected, rebuilding site (#133).
+2026-07-02 15:02:03.487 +1200
+Source changed /blog/青云谱.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 295 ms
+
+Change of Static files detected, rebuilding site (#134).
+2026-07-02 15:02:03.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\一只牛的一生-1.jpg to \
+
+Change detected, rebuilding site (#135).
+2026-07-02 15:02:03.983 +1200
+Source changed /blog/一只牛的一生.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 263 ms
+
+Change of Static files detected, rebuilding site (#136).
+2026-07-02 15:02:04.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\清官是如何炼成的-1.jpg to \
+
+Change detected, rebuilding site (#137).
+2026-07-02 15:02:04.498 +1200
+Source changed /blog/清官是如何炼成的.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 245 ms
+
+Change of Static files detected, rebuilding site (#138).
+2026-07-02 15:02:04.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\我的书柜-1.jpg to \
+
+Change detected, rebuilding site (#139).
+2026-07-02 15:02:04.994 +1200
+Source changed /blog/我的书柜.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 251 ms
+
+Change of Static files detected, rebuilding site (#140).
+2026-07-02 15:02:05.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#141).
+2026-07-02 15:02:06.380 +1200
+Syncing \images\posts\唐吉可德---有趣的电影-1.jpg to \
+
+Change detected, rebuilding site (#142).
+2026-07-02 15:02:06.381 +1200
+Source changed /blog/唐吉可德---有趣的电影.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 256 ms
+
+Change of Static files detected, rebuilding site (#143).
+2026-07-02 15:02:07.380 +1200
+Syncing \images\posts to \
+Syncing \images\posts\采金人-1.jpg to \
+
+Change detected, rebuilding site (#144).
+2026-07-02 15:02:07.483 +1200
+Source changed /blog/采金人.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 282 ms
+
+Change of Static files detected, rebuilding site (#145).
+2026-07-02 15:02:07.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\冬虫夏草-1.jpg to \
+
+Change detected, rebuilding site (#146).
+2026-07-02 15:02:07.992 +1200
+Source changed /blog/冬虫夏草.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 277 ms
+
+Change of Static files detected, rebuilding site (#147).
+2026-07-02 15:02:08.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#148).
+2026-07-02 15:02:09.380 +1200
+Syncing \images\posts\印度-1.jpg to \
+
+Change detected, rebuilding site (#149).
+2026-07-02 15:02:09.385 +1200
+Source changed /blog/73-印度.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 288 ms
+
+Change of Static files detected, rebuilding site (#150).
+2026-07-02 15:02:09.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\春天来了-1.jpg to \
+
+Change detected, rebuilding site (#151).
+2026-07-02 15:02:09.987 +1200
+Source changed /blog/春天来了.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 260 ms
+
+Change of Static files detected, rebuilding site (#152).
+2026-07-02 15:02:10.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\中秋词-1.jpg to \
+
+Change detected, rebuilding site (#153).
+2026-07-02 15:02:10.517 +1200
+Source changed /blog/中秋词.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 285 ms
+
+Change of Static files detected, rebuilding site (#154).
+2026-07-02 15:02:10.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#155).
+2026-07-02 15:02:11.380 +1200
+Syncing \images\posts\TangkubanParah-1.jpg to \
+
+Change detected, rebuilding site (#156).
+2026-07-02 15:02:11.381 +1200
+Source changed /blog/tangkubanparah.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 248 ms
+
+Change of Static files detected, rebuilding site (#157).
+2026-07-02 15:02:12.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\雪花-1.jpg to \
+
+Change detected, rebuilding site (#158).
+2026-07-02 15:02:12.986 +1200
+Source changed /blog/雪花.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 278 ms
+
+Change of Static files detected, rebuilding site (#159).
+2026-07-02 15:02:13.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\第一堂课-1.jpg to \
+
+Change detected, rebuilding site (#160).
+2026-07-02 15:02:13.483 +1200
+Source changed /blog/第一堂课.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 254 ms
+
+Change of Static files detected, rebuilding site (#161).
+2026-07-02 15:02:13.881 +1200
+Syncing \images\posts to \
+Syncing \images\posts\火车旅行-1.jpg to \
+
+Change detected, rebuilding site (#162).
+2026-07-02 15:02:14.011 +1200
+Source changed /blog/火车旅行.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 63 ms
+
+Change of Static files detected, rebuilding site (#163).
+2026-07-02 15:02:14.381 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#164).
+2026-07-02 15:02:15.381 +1200
+Syncing \images\posts\那些拨动心弦的文字-1.jpg to \
+
+Change detected, rebuilding site (#165).
+2026-07-02 15:02:15.383 +1200
+Source changed /blog/那些拨动心弦的文字.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 252 ms
+
+Change of Static files detected, rebuilding site (#166).
+2026-07-02 15:02:15.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\发财之道-1.jpg to \
+
+Change detected, rebuilding site (#167).
+2026-07-02 15:02:15.998 +1200
+Source changed /blog/发财之道.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 276 ms
+
+Change of Static files detected, rebuilding site (#168).
+2026-07-02 15:02:16.380 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#169).
+2026-07-02 15:02:16.880 +1200
+Syncing \images\posts\北京的夏日-1.jpg to \
+
+Change of Static files detected, rebuilding site (#170).
+2026-07-02 15:02:17.381 +1200
+Syncing \images\posts to \
+Syncing \images\posts\北京的夏日-2.jpg to \
+
+Change of Static files detected, rebuilding site (#171).
+2026-07-02 15:02:17.880 +1200
+Syncing \images\posts to \
+
+Change of Static files detected, rebuilding site (#172).
+2026-07-02 15:02:18.381 +1200
+Syncing \images\posts\北京的夏日-3.jpg to \
+Syncing \images\posts to \
+
+Change detected, rebuilding site (#173).
+2026-07-02 15:02:18.485 +1200
+Source changed /blog/北京的夏日.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 302 ms
+
+Change of Static files detected, rebuilding site (#174).
+2026-07-02 15:02:19.381 +1200
+Syncing \images\posts\房子梦想曲-1.jpg to \
+
+Change detected, rebuilding site (#175).
+2026-07-02 15:02:19.386 +1200
+Source changed /blog/房子梦想曲.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 253 ms
+
+Change of Static files detected, rebuilding site (#176).
+2026-07-02 15:02:19.880 +1200
+Syncing \images\posts to \
+Syncing \images\posts\词一首-1.jpg to \
+
+Change detected, rebuilding site (#177).
+2026-07-02 15:02:20.017 +1200
+Source changed /blog/词一首.md
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Total in 329 ms
+
+Change of Static files detected, rebuilding site (#178).
+2026-07-02 15:02:20.380 +1200
+Syncing \images\posts to \
