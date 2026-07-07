@@ -12,3 +12,12 @@ search_initial_message: Type something to search..
 search_navigate: to navigate
 search_select: to select
 search_close: to close
+
+# Contact form
+full-name: Full Name
+john-doe: John Doe
+working-mail: Working Mail
+john-doe-email: john.doe@email.com
+anything-else: Anything else?
+message-goes-here: Message goes here...
+submit: Submit
