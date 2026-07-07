@@ -27,8 +27,8 @@ url = "/contact"
 
 [[main]]
 parent = "Pages"
-name = "Authors"
-url = "/authors"
+name = "About"
+url = "/about"
 
 [[main]]
 parent = "Pages"
