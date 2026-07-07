@@ -13,3 +13,6 @@ resources
 jsconfig.json
 go.sum
 yarn.lock
+# Log files
+*.log
+scrape-*.js
