@@ -1,6 +1,13 @@
+################ Default language (Chinese) ##################
+[zh]
+label = "中文"
+locale = "zh-CN"
+contentDir = "content/zh"
+weight = 1
+
 ################ English language ##################
 [en]
 label = "En"
 locale = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2

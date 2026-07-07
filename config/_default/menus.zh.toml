@@ -1,0 +1,47 @@
+############# Chinese navigation ##############
+
+# main menu
+[[main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[main]]
+name = "关于"
+url = "/about"
+weight = 2
+
+[[main]]
+weight = 4
+name = "页面"
+
+[[main]]
+parent = "页面"
+name = "博客"
+url = "/blog"
+
+[[main]]
+parent = "页面"
+name = "联系方式"
+url = "/contact"
+
+[[main]]
+parent = "页面"
+name = "关于"
+url = "/about"
+
+[[main]]
+parent = "页面"
+name = "分类"
+url = "/categories"
+
+# footer menu
+[[footer]]
+name = "关于"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "隐私政策"
+url = "/privacy-policy"
+weight = 3
