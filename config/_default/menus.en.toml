@@ -4,11 +4,13 @@
 [[main]]
 name = "Home"
 url = "/"
+pageRef = "/"
 weight = 1
 
 [[main]]
 name = "About"
 url = "/about"
+pageRef = "/about"
 weight = 2
 
 [[main]]
@@ -19,31 +21,37 @@ name = "Pages"
 parent = "Pages"
 name = "Blog"
 url = "/blog"
+pageRef = "/blog"
 
 [[main]]
 parent = "Pages"
 name = "Contact"
 url = "/contact"
+pageRef = "/contact"
 
 [[main]]
 parent = "Pages"
 name = "About"
 url = "/about"
+pageRef = "/about"
 
 [[main]]
 parent = "Pages"
 name = "Categories"
 url = "/categories"
+pageRef = "/categories"
 
 # footer menu
 [[footer]]
 name = "About"
 url = "/about"
+pageRef = "/about"
 weight = 1
 
 [[footer]]
 name = "Privacy Policy"
 url = "/privacy-policy"
+pageRef = "/pages/privacy-policy"
 weight = 3
 
 

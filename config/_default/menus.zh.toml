@@ -4,11 +4,13 @@
 [[main]]
 name = "首页"
 url = "/"
+pageRef = "/"
 weight = 1
 
 [[main]]
 name = "关于"
 url = "/about"
+pageRef = "/about"
 weight = 2
 
 [[main]]
@@ -19,29 +21,35 @@ name = "页面"
 parent = "页面"
 name = "博客"
 url = "/blog"
+pageRef = "/blog"
 
 [[main]]
 parent = "页面"
 name = "联系方式"
 url = "/contact"
+pageRef = "/contact"
 
 [[main]]
 parent = "页面"
 name = "关于"
 url = "/about"
+pageRef = "/about"
 
 [[main]]
 parent = "页面"
 name = "分类"
 url = "/categories"
+pageRef = "/categories"
 
 # footer menu
 [[footer]]
 name = "关于"
 url = "/about"
+pageRef = "/about"
 weight = 1
 
 [[footer]]
 name = "隐私政策"
 url = "/privacy-policy"
+pageRef = "/pages/privacy-policy"
 weight = 3
