@@ -66,7 +66,7 @@ jobs:
       - name: Fix multilingual URLs in generated HTML
         run: |
           echo "Fixing broken relLangURL URLs..."
-          find public -name "*.html" -type f -exec sed -i 's|/en/blogger\.github\.io/|/blogger.github.io/en/|g' {} +
+          find public -type f \( -name '*.html' -o -name '*.js' -o -name '*.json' -o -name '*.xml' \) -exec sed -i 's|/en/blogger\.github\.io/|/blogger.github.io/en/|g; s|/zh/blogger\.github\.io/|/blogger.github.io/zh/|g' {} +
           echo "URL fix complete"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
@@ -84,4 +84,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.5
+
 

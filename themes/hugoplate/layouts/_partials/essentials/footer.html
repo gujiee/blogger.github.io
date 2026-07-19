@@ -23,7 +23,7 @@
                     {{ site.Home.RelPermalink }}
                   {{ end }}{{ .URL }}
                 {{ else }}
-                  {{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}
+                  {{ with .Page }}{{ .RelPermalink }}{{ else }}{{ site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}{{ end }}
                 {{ end }}"
                 >{{ .Name }}</a
               >

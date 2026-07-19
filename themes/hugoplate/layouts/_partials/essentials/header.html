@@ -33,7 +33,7 @@
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
-        {{ $menuURL := .URL | absLangURL }}
+        {{ $menuURL := site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}
         {{ $pageURL:= $currentPage.RelPermalink }}
         {{ $active := eq $menuURL $pageURL }}
         {{ if .HasChildren }}
@@ -45,7 +45,7 @@
             <label
               for="submenu-{{ .Name | urlize }}"
               class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
+                {{ $childURL := site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}
                 {{ $active := eq $childURL $pageURL }}
                 {{ if $active }}active{{ end }}
               {{ end }} inline-flex items-center">
@@ -58,7 +58,7 @@
             <ul
               class="nav-dropdown-list hidden peer-checked:block peer-checked:visible peer-checked:opacity-100 lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
               {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
+                {{ $childURL := site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}
                 {{ $active := eq $childURL $pageURL }}
                 <li class="nav-dropdown-item">
                   <a
@@ -74,7 +74,7 @@
                       {{- end }}
                       {{- .URL -}}
                     {{- else -}}
-                      {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end -}}
+                      {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}{{ end -}}
                     {{- end -}}">
                     {{ .Name }}
                   </a>
@@ -94,7 +94,7 @@
                   {{- site.Home.RelPermalink -}}
                 {{- end }}{{- .URL -}}
               {{- else -}}
-                {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end -}}
+                {{- with .Page }}{{ .RelPermalink }}{{ else }}{{ site.Home.RelPermalink | safeURL }}{{ strings.TrimPrefix "/" .URL }}{{ end -}}
               {{- end -}}"
               >{{ .Name }}</a
             >
