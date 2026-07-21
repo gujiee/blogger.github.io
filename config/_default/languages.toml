@@ -11,3 +11,10 @@ label = "En"
 locale = "en-us"
 contentDir = "content/english"
 weight = 2
+
+[zh.params]
+copyright = "© 2026 My Blog. 保留所有权利。"
+metadata_description = "个人博客——记录生活、旅行、诗与远方的文字空间。"
+[en.params]
+copyright = "© 2026 My Blog. All rights reserved."
+metadata_description = "A personal blog — poetry, essays, and quiet reflections written between Beijing, Vanuatu, and the North Shore of Auckland."
