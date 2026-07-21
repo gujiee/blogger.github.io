@@ -1,4 +1,7 @@
 ---
+title: "首页"
+meta_title: "博客"
+description: "一个用文字记录生活、旅行、诗与远方的个人空间。"
 # Banner
 banner:
   title: "欢迎来到我的博客"
